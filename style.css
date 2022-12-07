@@ -1,0 +1,42 @@
+html{
+    cursor:default;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3.5em;
+}
+
+h2, #result{
+    text-align: center;
+    font-size: 2.75em;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:5px;
+    margin: 0 auto;
+    background-color: black;
+    width: 30em;
+    height: 30em;
+}
+
+.grid{
+    background-color: white;
+    text-align: center;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#reset{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
