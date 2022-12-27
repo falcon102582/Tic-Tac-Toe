@@ -40,3 +40,13 @@ h2, #result{
     font-size: 1.5em;
     cursor: pointer;
 }
+
+#mode{
+    display: flex;
+    justify-content: center;
+}
+
+#mode *{
+    margin: 90px;
+    font-size: 2em;
+}
